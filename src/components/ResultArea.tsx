@@ -47,11 +47,11 @@ const ResultArea: FC<ResultArea> = (
                     }
                 }
             >
-                            {
-                            text.isDefault ?
-                            `FontSizeは${fontValue}px、lineHeightは${lineValue}、marginTopは${marginValue}pxです。`:
-                            `${text.text}`
-                            }
+                {
+                text.isDefault ?
+                `FontSizeは${fontValue}px、lineHeightは${lineValue}、marginTopは${marginValue}pxです。`:
+                `${text.text}`
+                }
             </Text>
         ))}
     </ResultWrap>
